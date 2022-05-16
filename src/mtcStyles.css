@@ -1,0 +1,188 @@
+/* ----------------------- GÉNÉRAL -------------------- */
+
+body
+{
+  display: block;
+}
+
+h1
+{
+  font-size: 50px;
+  margin: auto;
+}
+
+
+h2
+{
+  height: 50px;
+  font-size: 40px;
+  background: linear-gradient(100deg, rgba(140,207,223,1) 0%, rgba(255,255,255,1) 50%, rgba(140,207,223,1) 100%);
+  /*background: Gray;*/
+  border-bottom: solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.haut
+{
+  margin-top: -19px;
+  border-bottom: solid;
+}
+
+.bas
+{
+  margin-top: -19px;
+  border-top: solid;
+}
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(100deg, rgba(140,207,223,1) 0%, rgba(255,255,255,1) 50%, rgba(140,207,223,1) 100%);
+  /*background: linear-gradient(100deg, rgba(255,222,173,1) 0%, rgba(255,222,173,0.30) 50%, rgba(255,222,173,1) 100%);
+  /*background: DimGray;*/
+  /*background: linear-gradient(0.25turn, #FFDEAd, #FAFAD2, #FFDEAD);*/
+  /*margin: 30px;*/
+  border-top: solid;
+  border-bottom: solid;
+  margin-bottom: 0;
+  height: 80px;
+}
+
+a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.headerCo
+{
+  padding: 25px;
+  /*background-color: LightGoldenrodYellow;*/
+}
+
+nav a
+{
+  padding: 0 10px;
+}
+
+nav a:hover
+{
+  color: white;
+  background-color: #991d1d;
+  border-radius: 25% 10%;
+}
+
+.title
+{
+  padding: 0 10px;
+  /*background-color: LightGoldenrodYellow;*/
+}
+
+nav
+{
+  /*background-color: LightGoldenrodYellow;*/
+  padding: 25px;
+}
+
+table
+{
+border: medium solid #000099;
+border-collapse: collapse;
+width: 70%;
+}
+
+.tableDevis
+{
+  width: 80%;
+}
+
+tr {
+font-family: monospace;
+border: thin solid #000099; //couleur interieur
+width: 50%;
+padding: 10px;
+background-color: #D0E3FA;
+}
+td {
+font-family: sans-serif;
+border: thin solid #000099;//couleur interieur
+width: 50%;
+padding: 10px;
+text-align: center;
+background-color: #ffffff;
+}
+
+td, #descServ
+{
+  width: 100px;
+  text-align: left;
+}
+
+td, #supMod
+{
+  text-align: center;
+  width: 70px;
+}
+
+.footer
+{
+  /*display: flex;
+  justify-content: space-between;*/
+  background: linear-gradient(100deg, rgba(140,207,223,1) 0%, rgba(255,255,255,1) 50%, rgba(140,207,223,1) 100%);
+  margin-top: 80px;
+  height: 100px;
+  width: 100%;
+  /*background: linear-gradient(0.25turn, #FFDEAd, #FAFAD2, #FFDEAD);*/
+  /*margin: 30px;*/
+  position: inherit;
+  bottom: 0;
+  border-top: solid;
+  border-bottom: solid;
+}
+
+#footer
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer img
+{
+  height: 100px;
+}
+
+#logoInsta
+{
+  height= 50px;
+}
+
+/* ----------------------- ACCUEIL ----------------------- */
+
+#imagesAccueil
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#imagesAccueil img
+{
+  width: 40%;
+}
+
+.texteAccueil
+{
+  width: 80%;
+}
+
+.texteAccueil p
+{
+  font-size: 30px;
+  text-align: left;
+}
+
+/*.insertDevis, .insertOuvrier, .insertProjet, .insertRealisation, .insertService, .pageAccueil
+{
+  margin-top: -18px;
+}*/
